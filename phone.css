@@ -92,8 +92,20 @@ li{
     height: 3px;
     margin: 5px auto;
     background-color: white;
+    transition: 0.5s ease-in-out;
 }
 .active{
     right: 0;
+    transition: 0.5s ease-in-out;
+}
+.upperBar{
+    transform: rotate(45deg) translateY(11px);
+    transition: 0.5s ease-in-out;
+}
+.middleBar{
+    opacity: 0;
+}
+.lowerBar{
+    transform: rotate(-45deg) translateY(-11px);
     transition: 0.5s ease-in-out;
 }
