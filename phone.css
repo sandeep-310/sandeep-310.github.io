@@ -1,0 +1,64 @@
+#services{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+#service{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+#contpic{
+    display: none;
+}
+#explore{
+    font-size: 17px;
+    padding: 8px;
+}
+.contactform{
+    display: inline;
+}
+#sendbtn{
+    left: 0;
+    margin-top: 0px;
+    top: 17px;
+}
+.navbar{
+    flex-direction: column;
+}
+.explr{
+    height: 384px;
+}
+.headMain{
+    font-size: 47px;
+}
+
+.serviceHead{
+    margin-top: 59px;
+    font-size: 47px;
+}
+.box{
+    margin: 20px;
+}
+
+.contactHead{
+    margin: 0 0 30px 0;
+}
+.contactform label{
+    display: block;
+    margin-left: 10px;
+}
+.contactform input{
+    display: block;
+    margin-left: 10px;
+    width: 250px;
+}
+.contactform textarea{
+    display: block;
+    margin-left: 10px;
+    width: 250px;
+}
+.contactHead{
+    font-size: 55px;
+}
+.navbar a , .navbar img, .navbar input{
+    display: none;
+}
