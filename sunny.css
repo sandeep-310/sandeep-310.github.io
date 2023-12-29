@@ -220,4 +220,5 @@ footer{
   display: block;
   margin: 5px auto;
   background-color: white;
+  display: none;
 }
