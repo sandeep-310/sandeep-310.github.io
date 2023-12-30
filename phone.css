@@ -37,21 +37,19 @@
 }
 .contactform label{
     display: block;
-    margin-left: 10px;
 }
 .contactform input{
     display: block;
-    margin-left: 10px;
-    width: 405px;
     height: 50px;
+    width: 90vw;
 }
 .contactform textarea{
     display: block;
-    margin-left: 10px;
-    width: 405px;
+    width: 90vw;
 }
 .outerForm{
     justify-content: unset;
+    margin: 0 10px;
 }
 .menu{
     flex-direction: column;
