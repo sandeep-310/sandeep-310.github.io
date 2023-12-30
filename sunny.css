@@ -155,6 +155,7 @@ header::before{
   font-family: 'Baloo Bhai 2', sans-serif;
   border: 2px solid #62cfca;
   border-radius: 3px;
+  color: #62cfca;
 }
 .contactform textarea{
   border-radius: 5px;
@@ -164,6 +165,7 @@ header::before{
   font-size: 20px;
   padding: 9px 9px;
   font-family: 'Baloo Bhai 2', sans-serif;
+  color: #62cfca;
 }
 .contactHead{
   text-align: center;
