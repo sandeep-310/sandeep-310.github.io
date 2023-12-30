@@ -1,0 +1,10 @@
+
+.box{
+    margin: 0;
+}
+#service-1 , #service-2{
+    flex-direction: column;
+}
+.box{
+    margin: 20px 10px;
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="sunny.css">
 
     <link rel="stylesheet" media="screen and (max-width : 767px)" href="phone.css">
-    <link rel="stylesheet" media="screen and (min-width : 768px) and (max-width : 1023px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width : 768px) and (max-width : 1023px)" href="tab.css">
     <link rel="stylesheet" media="screen and (min-width : 1024px) and (max-width : 1439px)" href="Llappy.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,15 +37,15 @@
     <!---------------------------------Home Section-------------------------------------------------------------------->
     <section id="home">
     <h1 class="headMain">Welcome to Our Restaurant</h1>
-      <div class="explr">
-        <a href="http://apple.com" id="explore"> Explore Now</a>
-      </div>
+    <div class="explr">
+      <a href="http://apple.com" id="explore"> Explore Now</a>
+    </div>
     </section>
 
     <!------------------------ Services section --------------------------------------------------------------------->
 
     <h1 class="serviceHead">What Do We Provide</h1>
-    <section id="services">
+    <section id="service-1">
       <div class="box">
         <img src="pic3.png" alt="">
         <h2 class="boxHead">Fresh Food</h2>
@@ -64,9 +64,8 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eaque consequuntur aperiam deserunt veritatis placeat quos facilis modi perspiciatis ex. Eos, aperiam facilis.
         </p>
       </div>
-
-    </section>
-    <section id="service">
+      </section>
+      <section id="service-2">
       <div class="box">
         <img src="pic4.png" alt="">
         <h2 class="boxHead">Humble Staffs</h2>
@@ -90,19 +89,23 @@
     <!--------------------------------------------------------Contact Section-------------------------------------------------------------------->
     <section id="contact-section">
         <h1 class="contactHead">Contact Us</h1>
-
-        <form action="" class="contactform">
-          <label for="name">Name </label>
-          <input type="text" name="name" placeholder="Enter your name" id="name">
+        <div class="outerForm">
+          <form action="" class="contactform">
+            <label for="name">Name </label>
+            <input type="text" name="name" placeholder="Enter your name" id="name">
+            
+  
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your mail">
+  
+            <label for="feedback">Feedback</label>
+            <textarea name="feedback" id="feedback" cols="10" rows="10"></textarea>
+          </form>
           <img src="contact.png" alt="" id="contpic">
-
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Enter your mail">
-
-          <label for="feedback">Feedback</label>
-          <textarea name="feedback" id="feedback" cols="10" rows="10"></textarea>
-          <input type="submit" value="Send Now &#8594" id="sendbtn">
-        </form>
+        </div>
+        <div class="sendbtn">
+          <input type="submit" value="Send Now &#8594" id="sendbtn" >
+        </div>
     </section>
     <script src="sunny.js"></script>
   </body>

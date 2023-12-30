@@ -1,17 +1,22 @@
-#services{
-    flex-direction: column;
-    margin-bottom: 0;
+/*----------------------------------------------Home------------------------------------------------------------*/
+.headMain{
+    font-size: 52px;
 }
-#service{
+#explore{
+    border: 2px solid #769279;
+    position: relative;
+    top: 40px;
+    padding: 8px;
+    font-size: 17px;
+}
+#service-1{
     flex-direction: column;
-    margin-bottom: 0;
+}
+#service-2{
+    flex-direction: column;
 }
 #contpic{
     display: none;
-}
-#explore{
-    font-size: 17px;
-    padding: 8px;
 }
 .contactform{
     display: inline;
@@ -23,17 +28,6 @@
 }
 .navbar{
     flex-direction: column;
-}
-.explr{
-    height: 384px;
-}
-.headMain{
-    font-size: 47px;
-}
-
-.serviceHead{
-    margin-top: 59px;
-    font-size: 47px;
 }
 .box{
     margin: 20px;

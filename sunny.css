@@ -1,4 +1,4 @@
-body{
+*{
   padding: 0;
   margin: 0;
   
@@ -17,7 +17,7 @@ html{
   position: fixed;
   top: 0px;
   z-index: 999;
-  max-height: 62px;
+  max-height: 66px;
 }
 .navbar img{
   position: relative;
@@ -40,17 +40,23 @@ li{
 }
 .menu{
   display: flex;
+  align-items: center;
 }
 /*---------------------------------------------H  O  M  E--------------------------------------------------------------*/
 
-
+#home{
+  height: 98vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
 .headMain{
   color: #3e4043;
   text-align: center;
-  font-size: 83px;
-  position: relative;
-  top: 225px;
-  height: 394px; 
+  font-size: 83px; 
 }
 header::before{
   content: "";
@@ -67,7 +73,6 @@ header::before{
   #explore{
     border: 3px solid #769279;
     display: block;
-    position: relative;
     width: fit-content;
     padding: 13px;
     margin: auto;
@@ -82,31 +87,25 @@ header::before{
     color: white;
     transition-duration: 0.4s;
   }
-  .explr{
-    height: 199px;
-  }
 
   /*--------------------------------------------------Services----------------------------------------------------------*/
-#services{
-  font-family: 'Baloo Bhai 2', sans-serif;
-  display: flex;
-  margin: 40px 0px;
-}
-#service{
-  font-family: 'Baloo Bhai 2', sans-serif;
-  display: flex;
-  margin: 40px 0px;
-}
+
 .serviceHead{
   text-align: center;
   font-family: 'Baloo Bhai 2', sans-serif;
-    margin-top: 13px;
     font-size: 68px;
     color: #958282;
     -webkit-text-stroke: 0.1px;
     -webkit-text-stroke-color: black;
 }
-.box{
+#service-1{
+  display: flex;
+}
+#service-2{
+  margin-top: 20px;
+  display: flex;
+}
+ .box{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,9 +113,9 @@ header::before{
   font-weight: 100;
   border: 2px solid #d6bcbc;
   border-radius: 13px;
-  padding: 10px;
   background-color: #d9d9d9;
-  margin: 0px 10px;
+  margin: 0 20px;
+  padding: 35px
 }
 #breakfast{
   height: 120px;
@@ -127,18 +126,20 @@ header::before{
   width: 180px;
 }
 .box img{
-  position: relative;
   height: 150px;
   width: 150px;
 }
-.contactform{
-  padding: 16px;
-  margin-top: 0;
-  margin: 0 auto;
+/*---------------------------------------------------Contact-------------------------------------*/
+#contact-section{
+  margin-top: 25px;
+}
+.outerForm{
   display: flex;
-  height: 539px;
-  width: 700px;
   justify-content: center;
+}
+.contactform{
+  display: flex;
+  width: 350px;
   flex-direction: column;
 }
 .contactform label{
@@ -166,38 +167,33 @@ header::before{
 }
 .contactHead{
   text-align: center;
-  margin: 0;
-  margin-top: 50px;
   font-family: 'Baloo Bhai 2', sans-serif;
   font-size: 68px;
   font-weight: 100;
   color: #62cfca;
 }
 #contpic{
-  position: absolute;
-  height: 380px;
-  width: 380px;
-  left: 750px;
+  height: 400px;
+  width: 400px;
+}
+.sendbtn{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 #sendbtn{
-  background-color: #62cfca;
-  border-radius: 30px;
-  border: 3px solid #62cfca;
-  margin-top: 30px;
-  height: 50px;
-  position: relative;
-  left: 296px;
-  top: 27px;
-  width: 141px;
-  color: white;
-  padding: 7px;
+  background-color: #78ccc9;
+    padding: 13px;
+    border-radius: 50px;
+    border: 2px solid #78ccc9;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
 }
 #sendbtn:hover{
-  background-color: white;
-  border: 3px solid #62cfca;
-  color: #62cfca;
-  transition: 0.4s;
   cursor: pointer;
+  background-color: white;
+  color: #78ccc9;
 }
 footer{
   height: 50px;
