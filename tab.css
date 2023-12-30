@@ -1,4 +1,6 @@
-
+#home{
+    gap: 15px;
+}
 .box{
     margin: 0;
 }
