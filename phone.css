@@ -66,8 +66,7 @@
     transition: 0.5s ease-in-out;
 }
 .navbar a{
-    padding-left: 64px;
-    padding-right: 65px;
+    padding: 16px 125px 16px 38px;
 }
 li{
     margin-top: 21px;
