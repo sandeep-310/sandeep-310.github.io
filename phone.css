@@ -103,3 +103,9 @@ li{
     transform: rotate(-45deg) translateY(-11px);
     transition: 0.5s ease-in-out;
 }
+.contactform input{
+    color: #62cfca;
+  }
+  .contactform textarea{
+    color: #62cfca;
+  }

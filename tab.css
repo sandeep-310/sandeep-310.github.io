@@ -10,3 +10,10 @@
 .box{
     margin: 20px 10px;
 }
+.contactform input{
+    color: #62cfca;
+    height: 50px;
+  }
+  .contactform textarea{
+    color: #62cfca;
+  }
