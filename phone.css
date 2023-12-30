@@ -64,6 +64,7 @@
     height: 100vh;
     padding-left: 0;
     transition: 0.5s ease-in-out;
+    align-items: unset;
 }
 .navbar a{
     padding: 16px 125px 16px 38px;
